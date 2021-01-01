@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 31, 2020 at 11:09 AM
+-- Generation Time: Jan 01, 2021 at 03:42 AM
 -- Server version: 10.1.40-MariaDB
 -- PHP Version: 7.1.29
 
@@ -41,13 +41,6 @@ CREATE TABLE `add_students` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `add_students`
---
-
-INSERT INTO `add_students` (`Id_number`, `Lname`, `Fname`, `Middle`, `Birthday`, `email`, `address`, `Mnumber`, `gender`, `course`, `created_at`, `updated_at`) VALUES
-('ASS1111', 'Manzano', 'Jefferson', 'C', '2020-12-09', 'farmfriends01@gmail.com', 'Cogon Pardo Cebu City', '933333333', 'Male', 'BSIT-3', '2020-12-31 01:36:00', '2020-12-31 01:36:00');
 
 -- --------------------------------------------------------
 
